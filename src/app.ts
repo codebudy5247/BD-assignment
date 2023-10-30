@@ -5,7 +5,7 @@ import cors from "cors";
 import BookRouter from "./routes/bookRoute";
 import connectDB from './utils/connectDB';
 
-const port = process.env.PORT;
+const port = process.env.PORT || 1337;
 const app = express();
 
 // Middleware
