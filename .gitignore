@@ -1,0 +1,7 @@
+node_modules
+.env
+Notes.txt
+access.token.private.key
+access.token.public.key
+refresh.token.private.key
+refresh.token.public.key
